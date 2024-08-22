@@ -52,6 +52,13 @@ export default [
     component: './TableList',
   },
   {
+    path: '/product-list',
+    name: 'product-list',
+    icon: 'table',
+    component: './ProductList',
+    // option to add icon
+  },
+  {
     path: '/',
     redirect: '/welcome',
   },
